@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+            <title>Transcription+</title>
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+            <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&amp;display=swap" rel="stylesheet"/>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css"/>        
+            <link href="styles.css" rel="stylesheet"/>
+    </head>
+    
+    <body>
+        
+        <!-- Header -->
+        <div class="header py-3 mb-4">
+            <div class="container d-flex justify-content-between align-items-center">
+                <h4 class="mb-0">Transcription+</h4>
+                <div>
+                    <a href="index.html" title="Homepage in English">
+                        <span class="me-2 fi fi-gb"></span>
+                    </a>
+                    <a href="index_de.html" title="Homepage auf deutsch">
+                        <span class="me-2 fi fi-de"></span>
+                    </a>
+                    <a href="index_fr.html" title="Page d'acceuil en français">
+                        <span class="me-2 fi fi-fr"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Main -->
+        <div class="container">
+            
+            <div class="mb-4">
+                <h2 class="fw-semibold">ISO 24624:2016</h2>
+                <p class="text-muted">Language resource management — Transcription of spoken language</p>
+            </div>
+            
+            <div class="mb-4 text-center">
+                <img src="img/teixml.png"/>
+            </div>
+                
+            <div class="mb-4">
+                <p>
+                    Bienvenue sur la page d'accueil de <b>Transcription+</b> ! 
+                </p>
+                <p>
+                    Ce site fournit des informations sur le standard
+                    <a href="https://www.iso.org/standard/37338.html" target="_blank">ISO 24624:2016 Gestion des ressources linguistiques — Transcription de la langue parlée</a>,
+                    une norme publiée en 2016 pour la représentation numérique des transcriptions de données linguistiques audiovisuelles. La norme s'appuie sur les 
+                    <a href="https://tei-c.org/guidelines/" target="_blank">lignes directrices de la Text Encoding Initiative (TEI)</a>. 
+                    Elle a été appliquée avec succès dans divers projets de recherche et infrastructures de données de recherche.
+                </p>
+                <p>
+                    Le projet Transcription+ est une coopération entre l'
+                    <a href="https://www.uni-due.de/kowi/mukom/forschung" target="_blank">Université de Duisburg-Essen</a> et le 
+                    <a href="https://text-plus.org/" target="_blank">consortium Text+</a> de l'
+                    <a href="https://www.nfdi.de/?lang=en" target="_blank">Infrastructure nationale allemande de données de recherche NFDI</a>.
+                    L'<a href="https://www.awhamburg.de/" target="_blank">Académie des sciences et des lettres de Hambourg</a>,
+                    le <a href="https://www.fdm.uni-hamburg.de/" target="_blank">Centre pour la gestion durable des données de recherche</a>
+                    de l'Université de Hambourg et 
+                    le <a href="https://www.slm.uni-hamburg.de/hzsk.html" target="_blank">Centre pour les corpus linguistiques de Hambourg (HZSK)</a>
+                    sont des partenaires du consortium Text+ qui soutiennent Transcription+. 
+                </p>
+                <p>
+                    L'objectif du projet est d'améliorer la documentation et les outils de prise en charge de la norme. À cette fin, la 
+                    <a href="documentation.html">documentation</a> existante sera révisée, complétée et publiée ici. 
+                    Des ressources telles que <a href="code.html">les schémas XML, les feuilles de style XSLT et d'autres codes</a> seront rassemblées 
+                    à partir de différentes sources, harmonisées, documentées et regroupées dans un dépôt GitHub.
+                    Une version améliorée du corpus de démonstration multilingue EXMARaLDA 
+                    <a href="democorpus.html"></a> sera mise à disposition au format standard. 
+                    Le corpus de démonstration sera également accessible via une instance de la plateforme <a href="https://zumult.org" target="_blank">ZuMult</a>.  
+                    Une version étendue des <a href="webservices.html">services web</a> TEILicht, 
+                    permettant de convertir, normaliser, annoter ou visualiser des documents de transcription au format ISO/TEI, sera développée.                     
+                </p>
+                <p>
+                    Le projet a démarré en janvier 2026 et s'achèvera en septembre 2026. Ce site web est en cours de construction. 
+                    Cliquez sur l'une des fiches ci-dessous pour en savoir plus sur l'état d'avancement des tâches correspondantes.
+                    N'hésitez pas à <a href="mailto:thomas@linguisticbits.de">me contacter</a> pour toute question ou suggestion.
+                </p>
+            </div>
+
+            <div class="row g-3">
+                
+                <!-- Card -->
+                <div class="col-md-6 col-lg-4">
+                    <a href="documentation.html" class="text-decoration-none text-dark">
+                        <div class="card standard-card p-3">
+                            <h5>Documentation</h5>
+                            <div class="muted-small mb-2">Specifications and supporting documents</div>
+                            <div class="text-muted small">Version 0.1 · Updated 06/2026</div>
+                        </div>
+                    </a>
+                </div>
+                                
+                <!-- Card -->
+                <div class="col-md-6 col-lg-4">
+                    <a href="code.html" class="text-decoration-none text-dark">
+                        <div class="card standard-card p-3">
+                            <h5>Code</h5>
+                            <div class="muted-small mb-2">XSLT stylesheets and Java API</div>
+                            <div class="text-muted small">Version 0.1 · Updated 06/2026</div>
+                        </div>
+                    </a>
+                </div>
+                
+                <!-- Card -->
+                <div class="col-md-6 col-lg-4">
+                    <a href="webservices.html" class="text-decoration-none text-dark">
+                        <div class="card standard-card p-3">
+                            <h5>Web services</h5>
+                            <div class="muted-small mb-2">RESTful web services for the standard</div>
+                            <div class="text-muted small">Version 0.1 · Updated 06/2026</div>
+                        </div>
+                    </a>
+                </div>
+                
+                <!-- Card -->
+                <div class="col-md-6 col-lg-4">
+                    <a href="democorpus.html" class="text-decoration-none text-dark">
+                        <div class="card standard-card p-3">
+                            <h5>Demo corpus</h5>
+                            <div class="muted-small mb-2">Multilingual demonstration data</div>
+                            <div class="text-muted small">Version 0.1 · Updated 06/2026</div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Card -->
+                <div class="col-md-6 col-lg-4">
+                    <a href="references.html" class="text-decoration-none text-dark">
+                        <div class="card standard-card p-3">
+                            <h5>References</h5>
+                            <div class="muted-small mb-2">Papers and data</div>
+                            <div class="text-muted small">Version 0.1 · Updated 06/2026</div>
+                        </div>
+                    </a>
+                </div>
+                
+                <!-- Card -->
+                <div class="col-md-6 col-lg-4">
+                    <a href="news.html" class="text-decoration-none text-dark">
+                        <div class="card standard-card p-3">
+                            <h5>News</h5>
+                            <div class="muted-small mb-2">What was and what will be</div>
+                            <div class="text-muted small">Version 0.1 · Updated 06/2026</div>
+                        </div>
+                    </a>
+                </div>
+                
+
+            </div>
+            <footer class="mt-5 border-top" style="background: white;">
+                <div class="container py-4">
+                    
+                    <div class="row align-items-center">
+                        
+                        <!-- Left: text -->
+                        <div class="col-md-4 text-muted small">
+                            Transcription+ Partners
+                        </div>
+                        
+                        <!-- Center / logos -->
+                        <div class="col-md-8 d-flex flex-wrap gap-4 align-items-center justify-content-md-end">
+                            
+                            <img src="img/ude-logo.svg" title="University of Duisburg-Essen: Institute for Communication Studies"
+                                class="footer-logo"/>
+                            
+                            <img src="img/adwhh_logo.png" title="Academy of Sciences and Humanities in Hamburg"
+                                class="footer-logo"/>
+                            
+                            <img src="img/uhh-logo.png" title="University of Hamburg: Centre for Sustainable Research Data Management"
+                                class="footer-logo"/>
+                            
+                            <img src="img/text-plus-logo.svg" title="Text+ in NFDI"
+                                class="footer-logo"/>
+                            
+                        </div>
+                    </div>
+                    
+                    <!-- Bottom line -->
+                    <!-- <div class="text-center text-muted small mt-3">
+                    © 2026 Standards Portal · All rights reserved
+                </div> -->
+                    
+                </div>
+            </footer>        
+            
+        </div>
+        
+        
+    </body>
+</html>

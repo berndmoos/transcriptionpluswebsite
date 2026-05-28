@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="UTF-8"/>
+            <title>Transcription+: Documentation</title>
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+            <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&amp;display=swap" rel="stylesheet"/>                   
+            <link href="styles.css" rel="stylesheet"/>
+    </head>
+    
+    <body>
+        
+        <div class="container-fluid">
+            <div class="row">
+                
+                <!-- Sidebar -->
+                <nav class="col-md-3 col-lg-2 sidebar p-3">
+                    <h5>
+                        <a class="home-link" href="index.html" title="Homepage">Transcription+</a>                        
+                    </h5>
+                    
+                    <ul class="nav flex-column small">
+                        <li class="nav-item"><a class="nav-link active" href="documentation.html">Documentation</a></li>
+                        <li class="nav-item"><a class="nav-link" href="code.html">Code</a></li>
+                        <li class="nav-item"><a class="nav-link" href="webservices.html">Web services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="democorpus.html">Demo corpus</a></li>
+                        <li class="nav-item"><a class="nav-link" href="references.html">References</a></li>
+                        <li class="nav-item"><a class="nav-link" href="news.html">News</a></li>                        
+                    </ul>
+                </nav>
+                
+                <!-- Main content -->
+                <main class="col-md-9 col-lg-10 p-4 content">
+                    
+                    <!-- Header -->
+                    <div class="mb-4">
+                        <h1 class="fw-semibold">Documentation</h1>
+                        <p class="text-muted">ISO 24624:2016 Language resource management — Transcription of spoken language</p>                        
+                        
+                        <div class="d-flex gap-3 meta">
+                            <div>Version: 0.1</div>
+                            <div>Last updated: 06/2026</div>
+                            <div>Maintainer: Thomas Schmidt</div>
+                        </div>
+                    </div>
+                    
+                    <p>
+                        This page is work in progress.
+                    </p>
+                    
+                    <h3>Context</h3>
+                    <p>
+                        The actual specification of the standard is available against a fee from the <b>International Standards Organisation (ISO)</b>:
+                        <a target="_blank" href="https://www.iso.org/standard/37338.html">https://www.iso.org/standard/37338.html</a>.
+                    </p>
+                    <p>
+                        The standard rests on the Guidelines of the <b>Text Encoding Initative (TEI)</b>, primarily, but not exclusively on chapter 8 of the guidelines:
+                        "Transcriptions of Speech"
+                        <a target="_blank" href="https://tei-c.org/release/doc/tei-p5-doc/en/html/TS.html">https://tei-c.org/release/doc/tei-p5-doc/en/html/TS.html</a>.
+                    </p>
+                    <p>
+                        The concept for the standard was first described in a paper of <b>jTEI</b>, the Journal of the Text Encoding Initative:
+                        <a target="_blank" href="https://doi.org/10.4000/jtei.142">https://doi.org/10.4000/jtei.142</a>. 
+                    </p>
+                    <p>
+                        <b>Further research papers</b> 
+                        discussing different aspects of the standard are listed under <a href="references.html">References</a>.                         
+                    </p>
+                    <p>
+                        The <b>CLARIN Standards Information System</b> has an entry for the standard:
+                        <a target="_blank" href="https://standards.clarin.eu/sis/views/view-format.xq?id=fTEISpoken">https://standards.clarin.eu/sis/views/view-format.xq?id=fTEISpoken</a>.
+                        
+                    </p>
+                    
+                    <h3>Primer for ISO/TEI-Spoken</h3>
+                    <p>
+                        The primer for the standard was originally written for the <a href="https://zumult.org" target="_blank">ZuMult project</a>. <br/>
+                        It explains, in greater depth and detail than the official specification, how to use the standard in practice. 
+                        A completed and revised version of the primer will be published on Zenodo by the end of the Transcription+ project. 
+                    </p>
+                    
+                    <h3>XML schemas</h3>
+                    <p>
+                        Transcripts following the standard should validate against the generic TEI schema (tei_all.xsd) available from
+                        <a href="https://www.tei-c.org/release/xml/tei/custom/schema/" target="_blank">https://www.tei-c.org/release/xml/tei/custom/schema/</a>.
+                        For stricter validation of specific subsets of standard conformant documents, further XML schemas are developed as part of
+                        <a href="code.html">the code</a>.
+                    </p>
+                    
+                </main>
+            </div>
+        </div>
+        
+        <footer class="mt-5 border-top" style="background: white;">
+            <div class="container py-4">
+                
+                <div class="row align-items-center">
+                    
+                    <!-- Left: text -->
+                    <div class="col-md-4 text-muted small">
+                        Transcription+ Partners
+                    </div>
+                    
+                    <!-- Center / logos -->
+                    <div class="col-md-8 d-flex flex-wrap gap-4 align-items-center justify-content-md-end">
+                        
+                        <img src="img/ude-logo.svg" title="University of Duisburg-Essen: Institute for Communication Studies"
+                            class="footer-logo"/>
+                        
+                        <img src="img/adwhh_logo.png" title="Academy of Sciences and Humanities in Hamburg"
+                            class="footer-logo"/>
+                        
+                        <img src="img/uhh-logo.png" title="University of Hamburg: Centre for Sustainable Research Data Management"
+                            class="footer-logo"/>
+                        
+                        <img src="img/text-plus-logo.svg" title="Text+ in NFDI"
+                            class="footer-logo"/>
+                        
+                    </div>
+                </div>
+                
+                <!-- Bottom line -->
+                <!-- <div class="text-center text-muted small mt-3">
+                    © 2026 Standards Portal · All rights reserved
+                </div> -->
+                
+            </div>
+        </footer>        
+        
+        
+    </body>
+</html>
