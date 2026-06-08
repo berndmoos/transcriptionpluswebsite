@@ -2,6 +2,7 @@
 
 This repo contains the sources for the website of the **Transcription+ project**.
 
+![](html/img/teixml.png)
 
 The Transcription+ project is a cooperation of the 
                     <a href="https://www.uni-due.de/kowi/mukom/forschung" target="_blank">University of Duisburg-Essen</a> and the 
