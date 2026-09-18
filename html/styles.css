@@ -144,3 +144,28 @@ a:hover {
   text-decoration: underline;
   text-underline-offset: 2px;
 }
+
+.authors{
+    font-weight: bold;
+}
+
+.authors:after{
+    content: "\A";
+    white-space: pre;
+}
+
+.pubtitle  {
+    padding-left: 30px;
+}
+
+.pubdetails  {
+    padding-left: 30px;
+    
+}
+
+
+
+.pubtitle:after{
+    content: "\A";
+    white-space: pre;
+}
