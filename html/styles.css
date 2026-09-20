@@ -6,6 +6,21 @@
   --text-muted: #6b7280;
 }
 
+/*  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+
+    background: url("img/teixml.png") center / cover no-repeat;
+
+    opacity: 0.12;       
+    filter: grayscale(30%);
+
+    z-index: -1;
+}   */         
+
+
+
                 
 .header {
   border-bottom: 1px solid #eee;
@@ -162,7 +177,6 @@ a:hover {
     padding-left: 30px;
     
 }
-
 
 
 .pubtitle:after{
