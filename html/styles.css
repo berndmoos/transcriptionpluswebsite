@@ -169,6 +169,21 @@ a:hover {
     white-space: pre;
 }
 
+.corpustitle {
+    font-weight: bold;
+}
+
+.corpusdetails  {
+    padding-left: 30px;
+    
+}
+
+.corpustitle:after{
+    content: "\A";
+    white-space: pre;
+}
+
+
 .pubtitle  {
     padding-left: 30px;
 }
@@ -177,7 +192,6 @@ a:hover {
     padding-left: 30px;
     
 }
-
 
 .pubtitle:after{
     content: "\A";
