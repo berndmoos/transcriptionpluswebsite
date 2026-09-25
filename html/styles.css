@@ -175,6 +175,7 @@ a:hover {
 
 .corpusdetails  {
     padding-left: 30px;
+    display: block;
     
 }
 
@@ -186,10 +187,12 @@ a:hover {
 
 .pubtitle  {
     padding-left: 30px;
+    display: block;
 }
 
 .pubdetails  {
     padding-left: 30px;
+    display: block;
     
 }
 
